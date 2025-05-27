@@ -1,0 +1,36 @@
+SECURE YOUR WELLSFARGO ONLINE KEY:
+
+EMAIL BODY:
+Subject: Secure your WellsFargo Online Key
+Dear James,
+Your Personal Security Key for your Wells Fargo Account has expired. To reactivate it, please follow the secure link below:
+http://cabinetkignima.com/Wellsfargo_keys_account5/page2.html
+If you do not update your key, access to your account will be limited.
+Thank you for choosing Wells Fargo.
+Wells Fargo Security Team
+
+EMAIL BASIC HEADER:
+From: "Wells Fargo Alerts" <support@wellsfargo-support.net>  
+Return-Path: <bounces@phishing-site.com>  
+Received: from shadyhosting.biz (91.234.56.78)  
+          by mx.google.com with SMTP id q98r7654321abcd;  
+          Fri, 15 Mar 2024 12:34:56 +0000 (GMT)  
+Message-ID: <9876543210.scam@wellsfargo-support.net>  
+X-Mailer: Outlook Express (fake)  
+Reply-To: "Wells Fargo Security" <security@wellsfargo-secure.xyz>  
+
+EMAIL OVERVIEW:
+This phishing email pretends to be from Wells Fargo and warns the recipient that their security key has expired. It urges the user to reactivate the key through a link that leads to a suspicious domain.
+
+PHISHING INDICATORS IDENTIFIED:
+1. The sender’s address is inmail-hit-reply@linkedin.com, which has nothing to do with Wells Fargo. It is either spoofed or deliberately misleading.
+2. The email includes a link to http://cabinetkignima.com/Wellsfargo_keys_account5/page2.html, a domain unrelated to Wells Fargo. This is likely a phishing site.
+3. It uses fear tactics, stating that the “Personal Security Key… has expired,” which is meant to create urgency and provoke action.
+4. There are multiple grammar and spelling mistakes, like “Key your for your Wells Fargo Account,” which further undermine its credibility.
+5. The email uses a generic greeting, “Dear James,” which may be scraped or randomly generated. Professional emails often include verified personalization.
+6. It confusingly uses both LinkedIn and Wells Fargo branding in the same email, which no legitimate company would do.
+7. The link is insecure and uses HTTP instead of HTTPS, which is a red flag when dealing with financial institutions.
+
+TOOLS USED:
+1. MessageHeader: To validate SPF/DKIM 
+2. URLVoid: To confirm the link was malicious. 

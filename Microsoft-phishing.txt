@@ -1,0 +1,37 @@
+UNUSUAL SIGN-IN ACTIVITY (FAKE MICROSOFT ALERT):
+
+EMAIL BODY:
+Subject: Unusual sign-in activity
+We detected something unusual about a recent sign-in for the Microsoft account user@outlook.com.
+Sign-in details:
+Country/region: Russia
+IP address: 293.09.101.9
+Date: Thu, May 23, 2024 5:39 AM
+If this wasn’t you, someone else might have access to your account. Review your recent activity and we’ll help you take corrective action.
+You can also reach us immediately at 1-800-816-0380.
+The Microsoft account team
+
+EMAIL BASIC HEADER:
+From: "Microsoft Team" <no-reply.msteam2@outlook.com>  
+Return-Path: <bounces@scam-server.ru>  
+Received: from mail.scamhost.net (185.143.223.17)  
+          by mx.google.com with SMTP id d12s3456789wxyz;  
+          Tue, 09 Jul 2016 02:16:00 +0000 (GMT)  
+Message-ID: <1234567890.scam@outlook.com>  
+X-Mailer: Some Phishing Kit v2.0  
+Reply-To: "Microsoft Support" <support@microsoft-security.xyz>  
+
+EMAIL OVERVIEW:
+This phishing email claims to be a security alert from Microsoft, warning the user of unusual sign-in activity from a suspicious location. It prompts the user to take urgent action by clicking a link or calling a phone number.
+
+PHISHING INDICATORS IDENTIFIED:
+1. The sender email address is no-reply_msteam2@outlook.com, which is a free Outlook address and not an official Microsoft domain. This raises suspicion of spoofing.
+2. It mentions an IP address 293.09.101.9, which is technically invalid since the first number exceeds the allowed IP range. This is an intentional scare tactic.
+3. The content uses urgent language like threats of license corruption and prohibited connections to panic the user.
+4. The email includes a phone number 1-800-816-0380 that is not a verifiable Microsoft support number. Scammers often use fake numbers to lure victims.
+5. There are noticeable grammar issues, such as awkward sentence structures that legitimate corporations usually avoid.
+6. The “Review recent activity” button has a hidden destination, possibly leading to a phishing page.
+
+TOOLS USED:
+1. MessageHeader: To trace the email’s path (like tracking a package).  
+2. IPVoid: To check if the sender’s IP was blacklisted (it was).  
